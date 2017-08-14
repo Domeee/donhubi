@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  background-color: #0F2634;
+  color: #FFF;
+}
+
+header a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.header-container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  height: 5vh;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-nav li {
+  margin-left: 2vw;
+}
+
+main {
+  flex: 1;
+}
+
+.main-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+footer {
+  height: 15vh;
+  display: flex;
+  background-color: #29292C;
+  color: #B5B5C0;
+}
+
+footer h1 {
+  color: #FFF;
+}

@@ -12,45 +12,47 @@
 </head>
 
 <body>
-  <header>
-    <div class="header-container">
-      <div>
+  <ul class="navigation">
+    <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+    <li><a href="coaching.html" alt="Software Entwicklung">Coaching</a></li>
+    <li><a href="projects.html" alt="Software Entwicklung">Projekte</a></li>
+    <li><a href="about.html" alt="Software Entwicklung">Über mich</a></li>
+    <li><a href="contact.html" alt="Software Entwicklung">Kontakt</a></li>
+  </ul>
+  <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+  <label for="nav-trigger"></label>
+  <div class="body-container">
+    <header>
+      <div class="header-container">
         <a href="/" alt="Startseite">
           <img class="logo" src="images/batman_inverted7.png" alt="Don Hubi Logo">
         </a>
       </div>
-      <!-- <div>
-        <ul class="main-nav">
-          <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-          <li><a href="coaching.html" alt="Software Entwicklung">Coaching</a></li>
-          <li><a href="projects.html" alt="Software Entwicklung">Projekte</a></li>
-          <li><a href="about.html" alt="Software Entwicklung">Über mich</a></li>
-          <li><a href="contact.html" alt="Software Entwicklung">Kontakt</a></li>
-        </ul>
-      </div> -->
-    </div>
-  </header>
-  <main>
-    <div class="main-container">
-      <%= content %>
-    </div>
-  </main>
-  <footer>
-    <section>
-      <h1>Dienstleistungen</h1>
-      <ul>
-        <li>Software Entwicklung</li>
-        <li>Coaching</li>
-      </ul>
-    </section>
-    <section>
-      <h1>Referenzen</h1>
-      <ul>
-        <li>Projekte</li>
-        <li>Über mich</li>
-      </ul>
-    </section>
-  </footer>
+    </header>
+    <main>
+      <div class="main-container">
+        <%= content %>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <section>
+          <h1>Dienstleistungen</h1>
+          <ul>
+            <li>Software Entwicklung</li>
+            <li>Coaching</li>
+          </ul>
+        </section>
+        <section>
+          <h1>Referenzen</h1>
+          <ul>
+            <li>Projekte</li>
+            <li>Über mich</li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

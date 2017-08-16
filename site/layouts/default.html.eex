@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dominique Huber</title>
   <meta name="author" content="Dominique Huber">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Lato" rel="stylesheet">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="donhubi.css">
 </head>
@@ -24,15 +25,13 @@
   <div class="body-container">
     <header>
       <div class="header-container">
-        <a href="/" alt="Startseite">
+        <a class="logo-link" href="/" alt="Startseite">
           <img class="logo" src="images/batman_inverted7.png" alt="Don Hubi Logo">
         </a>
       </div>
     </header>
     <main>
-      <div class="main-container">
-        <%= content %>
-      </div>
+      <%= content %>
     </main>
     <footer>
       <div class="footer-container">

@@ -1,0 +1,43 @@
+.nav-trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  position: fixed;
+  top: 2vh;
+  right: 3vw;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 255 255 255 1' xml:space='preserve'><rect width='30' height='6' fill='black'/><rect y='24' width='30' height='6' fill='black'/><rect y='12' width='30' height='6' fill='black'/></svg>");
+  background-size: contain;
+}
+
+.nav-trigger:checked+label {
+  top: 245px;
+}
+
+.nav-trigger:checked~.body-container {
+  top: 230px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-trigger+label,
+.body-container {
+  transition: top 0.2s;
+}
+
+.body-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+}

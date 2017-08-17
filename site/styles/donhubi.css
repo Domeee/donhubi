@@ -14,9 +14,6 @@ a:visited,
 a:hover,
 a:active {
   color: #F24747;
-  padding-bottom: 4px;
-  text-decoration: none;
-  border-bottom: 1px solid #FFADAD;
 }
 
 .navigation {
@@ -58,7 +55,7 @@ label[for="nav-trigger"] {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 255 255 255 1' xml:space='preserve'><rect width='30' height='6' fill='white'/><rect y='24' width='30' height='6' fill='white'/><rect y='12' width='30' height='6' fill='white'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 255 255 255 1' xml:space='preserve'><rect width='30' height='6' fill='black'/><rect y='24' width='30' height='6' fill='black'/><rect y='12' width='30' height='6' fill='black'/></svg>");
   background-size: contain;
 }
 
@@ -106,7 +103,7 @@ main {
 }
 
 footer {
-  height: 15vh;
+  padding-bottom: 8vh;
   background-color: #29292C;
   color: #B5B5C0;
 }
@@ -115,9 +112,27 @@ footer {
   width: 80vw;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container section {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container li {
+  line-height: 200%;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
 footer h1 {
+  font-family: 'Bitter', serif;
+  font-size: 3rem;
+  font-weight: 700;
   color: #FFF;
 }
 
@@ -131,7 +146,7 @@ footer h1 {
 }
 
 .quotee-dark {
-  color: #000;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 main section {
@@ -140,7 +155,7 @@ main section {
 }
 
 .section-header {
-  margin-bottom: 2vh;
+  margin-bottom: -2vh;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   font-family: 'Bitter', serif;
@@ -165,11 +180,7 @@ main section {
 }
 
 .sub-content-section {
-  margin-bottom: 4vh;
-}
-
-.sub-content-section:last-child {
-  margin-bottom: 0;
+  margin-top: 4vh;
 }
 
 .flow-text {
@@ -177,15 +188,19 @@ main section {
   line-height: 150%;
 }
 
-.certification-header {
-  margin-bottom: 2vh;
-  color: rgba(0, 0, 0, 0.8);
-  text-transform: uppercase;
-  font-family: 'Bitter', serif;
-  font-weight: 700;
-  font-size: 1.6rem;
+.contact-button-container {
+  margin-top: 8vh;
 }
 
-.certification-section {
-  margin-top: 2vh;
+.contact-button:link,
+.contact-button:visited,
+.contact-button:hover,
+.contact-button:active {
+  padding: 4vw;
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: #FFF;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  border-radius: 2px;
 }

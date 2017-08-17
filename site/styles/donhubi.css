@@ -190,6 +190,7 @@ main section {
 
 .contact-button-container {
   margin-top: 8vh;
+  margin-bottom: 4vh;
 }
 
 .contact-button:link,
@@ -202,5 +203,5 @@ main section {
   background-color: #FFF;
   text-decoration: none;
   border: 1px solid #FFF;
-  border-radius: 2px;
+  border-radius: 4px;
 }

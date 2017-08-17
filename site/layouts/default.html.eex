@@ -8,7 +8,6 @@
   <meta name="author" content="Dominique Huber">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Lato" rel="stylesheet">
-  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="donhubi.css">
 </head>
 
@@ -26,7 +25,7 @@
     <header>
       <div class="header-container">
         <a class="logo-link" href="/" alt="Startseite">
-          <img class="logo" src="images/batman_inverted7.png" alt="Don Hubi Logo">
+          <img class="logo" src="logo.png" alt="Don Hubi Logo">
         </a>
       </div>
     </header>

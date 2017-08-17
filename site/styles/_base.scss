@@ -1,5 +1,5 @@
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-primary;
   font-size: 62.5%;
   color: rgba(0, 0, 0, 0.9);
 }
@@ -13,11 +13,11 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #F24747;
+  color: $color-accent1;
 }
 
 .navigation {
-  background: #0F2634;
+  background: $color-primary;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -77,7 +77,7 @@ header {
   display: flex;
   align-items: center;
   height: 10vh;
-  background-color: #0F2634;
+  background-color: $color-primary;
   color: #FFF;
 }
 
@@ -104,8 +104,8 @@ main {
 
 footer {
   padding-bottom: 8vh;
-  background-color: #29292C;
-  color: #B5B5C0;
+  background-color: $color-grey-dark;
+  color: $color-grey-light;
 }
 
 .footer-container {
@@ -142,7 +142,7 @@ footer h1 {
 }
 
 .quotee {
-  color: #B5B5C0;
+  color: $color-grey-light;
 }
 
 .quotee-dark {
@@ -165,7 +165,7 @@ main section {
 
 .section-container-grey {
   padding: 1px 0 8vh;
-  background-color: #F0F0F0;
+  background-color: $color-grey-lightest;
 }
 
 .section-container-white {
@@ -175,7 +175,7 @@ main section {
 
 .section-container-red {
   padding: 1px 0 8vh;
-  background-color: #F24747;
+  background-color: $color-accent1;
   color: #FFF;
 }
 

@@ -9,8 +9,5 @@ defmodule Mix.Tasks.Don.Build do
 
     # Copy Assets
     DonHubi.Assets.copy
-
-    # Copy Styles
-    DonHubi.Styles.copy
   end
 end

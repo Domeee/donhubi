@@ -14,18 +14,18 @@
 <body>
   <ul class="navigation">
     <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-    <li><a href="coaching.html" alt="Software Entwicklung">Coaching</a></li>
-    <li><a href="projects.html" alt="Software Entwicklung">Projekte</a></li>
-    <li><a href="about.html" alt="Software Entwicklung">Über mich</a></li>
-    <li><a href="contact.html" alt="Software Entwicklung">Kontakt</a></li>
+    <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+    <li><a href="projects.html" alt="Projekte">Projekte</a></li>
+    <li><a href="about.html" alt="Über mich">Über mich</a></li>
+    <li><a href="contact.html" alt="Kontakt">Kontakt</a></li>
   </ul>
   <input type="checkbox" id="nav-trigger" class="nav-trigger" />
   <label for="nav-trigger"></label>
   <div class="body-container">
     <header>
       <div class="header-container">
-        <a class="logo-link" href="/" alt="Startseite">
-          <img class="logo" src="logo.png" alt="Don Hubi Logo">
+        <a href="/" alt="Startseite">
+          <img src="logo.png" alt="Don Hubi Logo">
         </a>
       </div>
     </header>
@@ -37,15 +37,15 @@
         <section>
           <h1>Dienstleistungen</h1>
           <ul>
-            <li>Software Entwicklung</li>
-            <li>Coaching</li>
+            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
           </ul>
         </section>
         <section>
           <h1>Referenzen</h1>
           <ul>
-            <li>Projekte</li>
-            <li>Über mich</li>
+            <li><a href="projects.html" alt="Projekte">Projekte</a></li>
+            <li><a href="about.html" alt="Über mich">Über mich</a></li>
           </ul>
         </section>
       </div>

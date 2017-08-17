@@ -1,0 +1,69 @@
+.quote {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.quotee {
+  color: $color-grey-light;
+}
+
+.quotee-dark {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+main section {
+  width: 80vw;
+  margin: 8vh auto 0;
+}
+
+.section-header {
+  margin-bottom: -2vh;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+  font-size: 4.2rem;
+}
+
+.section-container-grey {
+  padding: 1px 0 8vh;
+  background-color: $color-grey-lightest;
+}
+
+.section-container-white {
+  padding: 1px 0 8vh;
+  background-color: #FFF;
+}
+
+.section-container-red {
+  padding: 1px 0 8vh;
+  background-color: $color-accent1;
+  color: #FFF;
+}
+
+.sub-content-section {
+  margin-top: 4vh;
+}
+
+.flow-text {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.contact-button-container {
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+}
+
+.contact-button:link,
+.contact-button:visited,
+.contact-button:hover,
+.contact-button:active {
+  padding: 4vw;
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: #FFF;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  border-radius: 4px;
+}

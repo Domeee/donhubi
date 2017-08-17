@@ -1,0 +1,35 @@
+footer {
+  padding-bottom: 8vh;
+  background-color: $color-grey-dark;
+  color: $color-grey-light;
+  .footer-container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    section {
+      margin-top: 8vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        font-family: 'Bitter', serif;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #FFF;
+      }
+      li {
+        line-height: 200%;
+        font-size: 1.8rem;
+        text-align: center;
+        a:link,
+        a:visited,
+        a:hover,
+        a:active {
+          text-decoration: none;
+          color: $color-grey-light;
+        }
+      }
+    }
+  }
+}

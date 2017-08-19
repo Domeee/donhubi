@@ -6,7 +6,13 @@ html {
 
 body {
   overflow-x: hidden; // Related to hamburger
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  @include tablet {
+    font-size: 1.8rem;
+  }
+  @include desktop {
+    font-size: 1.8rem;
+  }
 }
 
 a:link,

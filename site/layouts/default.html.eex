@@ -7,7 +7,7 @@
   <title>Dominique Huber</title>
   <meta name="author" content="Dominique Huber">
   <link rel="icon" href="assets/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="donhubi.css">
 </head>
 
@@ -35,14 +35,28 @@
     <footer>
       <div class="footer-container">
         <section>
-          <h1>Dienstleistungen</h1>
+          <h1>dienstleistungen</h1>
           <ul>
             <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
             <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
           </ul>
         </section>
         <section>
-          <h1>Referenzen</h1>
+          <h1>dienstleistungen</h1>
+          <ul>
+            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+          </ul>
+        </section>
+        <section>
+          <h1>dienstleistungen</h1>
+          <ul>
+            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+          </ul>
+        </section>
+        <section>
+          <h1>referenzen</h1>
           <ul>
             <li><a href="projects.html" alt="Projekte">Projekte</a></li>
             <li><a href="about.html" alt="Über mich">Über mich</a></li>

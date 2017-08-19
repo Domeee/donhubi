@@ -4,8 +4,14 @@ header {
   height: 10vh;
   background-color: $color-primary;
   .header-container {
-    width: 80vw;
+    width: $width-content-mobile;
     margin: 0 auto;
+    @include tablet {
+      width: $width-content-tablet;
+    }
+    @include desktop {
+      width: $width-content-desktop;
+    }
     img {
       max-height: 4vh;
     }

@@ -1,9 +1,15 @@
-$font-primary: Lato,
+// FONT
+$font-primary: 'Open Sans',
 sans-serif;
 $font-secondary: Bitter,
 serif;
+// COLOR
 $color-primary: #0F2634;
 $color-accent1: #F24747;
 $color-grey-dark: #29292C;
 $color-grey-light: #B5B5C0;
 $color-grey-lightest: #F0F0F0;
+// LAYOUT
+$width-content-mobile: 90vw;
+$width-content-tablet: 70vw;
+$width-content-desktop: 50vw;

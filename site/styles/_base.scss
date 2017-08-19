@@ -44,5 +44,5 @@ a:active {
 
 // https://github.com/philipwalton/flexbugs#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored
 main {
-  flex: 1 1 0%;
+  flex: 1 1 auto;
 }

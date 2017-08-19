@@ -11,11 +11,17 @@ header {
       width: $width-content-tablet;
     }
     @include desktop {
-      width: $width-content-desktop;
+      width: 90vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
     }
     img {
       max-height: 4vh;
       min-height: 30px;
+      @include desktop {
+        max-height: 2vh;
+      }
     }
   }
 }

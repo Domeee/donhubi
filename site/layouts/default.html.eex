@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <ul class="navigation">
+  <ul class="navigation-handheld">
     <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
     <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
     <li><a href="projects.html" alt="Projekte">Projekte</a></li>
@@ -29,6 +29,13 @@
           <a href="/" alt="Startseite">
             <img src="assets/logo.png" alt="Don Hubi Logo">
           </a>
+          <ul class="navigation-desktop">
+            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+            <li><a href="projects.html" alt="Projekte">Projekte</a></li>
+            <li><a href="about.html" alt="Über mich">Über mich</a></li>
+            <li><a href="contact.html" alt="Kontakt">Kontakt</a></li>
+          </ul>
         </div>
       </header>
       <main>

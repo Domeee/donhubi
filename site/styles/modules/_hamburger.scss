@@ -16,6 +16,9 @@ label[for="nav-trigger"] {
   @include tablet {
     top: 3vh;
   }
+  @include desktop {
+    display: none;
+  }
 }
 
 .nav-trigger:checked+label {

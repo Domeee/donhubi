@@ -23,8 +23,3 @@ label[for="nav-trigger"] {
   top: 23rem;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-
-.nav-trigger+label,
-.body-container-wrapper {
-  transition: top 0.2;
-}

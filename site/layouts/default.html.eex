@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dominique Huber</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="author" content="Dominique Huber">
+  <title>Dominique Huber</title>
   <link rel="icon" href="assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="donhubi.css">
@@ -21,49 +22,51 @@
   </ul>
   <input type="checkbox" id="nav-trigger" class="nav-trigger" />
   <label for="nav-trigger"></label>
-  <div class="body-container">
-    <header>
-      <div class="header-container">
-        <a href="/" alt="Startseite">
-          <img src="assets/logo.png" alt="Don Hubi Logo">
-        </a>
-      </div>
-    </header>
-    <main>
-      <%= content %>
-    </main>
-    <footer>
-      <div class="footer-container">
-        <section>
-          <h1>dienstleistungen</h1>
-          <ul>
-            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
-          </ul>
-        </section>
-        <section>
-          <h1>dienstleistungen</h1>
-          <ul>
-            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
-          </ul>
-        </section>
-        <section>
-          <h1>dienstleistungen</h1>
-          <ul>
-            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
-          </ul>
-        </section>
-        <section>
-          <h1>referenzen</h1>
-          <ul>
-            <li><a href="projects.html" alt="Projekte">Projekte</a></li>
-            <li><a href="about.html" alt="Über mich">Über mich</a></li>
-          </ul>
-        </section>
-      </div>
-    </footer>
+  <div class="body-container-wrapper">
+    <div class="body-container">
+      <header>
+        <div class="header-container">
+          <a href="/" alt="Startseite">
+            <img src="assets/logo.png" alt="Don Hubi Logo">
+          </a>
+        </div>
+      </header>
+      <main>
+        <%= content %>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <section>
+            <h1>dienstleistungen</h1>
+            <ul>
+              <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+              <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+            </ul>
+          </section>
+          <section>
+            <h1>dienstleistungen</h1>
+            <ul>
+              <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+              <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+            </ul>
+          </section>
+          <section>
+            <h1>dienstleistungen</h1>
+            <ul>
+              <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
+              <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+            </ul>
+          </section>
+          <section>
+            <h1>referenzen</h1>
+            <ul>
+              <li><a href="projects.html" alt="Projekte">Projekte</a></li>
+              <li><a href="about.html" alt="Über mich">Über mich</a></li>
+            </ul>
+          </section>
+        </div>
+      </footer>
+    </div>
   </div>
   <script src="donhubi.js"></script>
 </body>

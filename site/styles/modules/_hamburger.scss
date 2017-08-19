@@ -28,16 +28,3 @@ label[for="nav-trigger"] {
 .body-container {
   transition: top 0.2s;
 }
-
-.body-container {
-  min-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
-  background-color: #fff;
-}

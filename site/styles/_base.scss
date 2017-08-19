@@ -22,6 +22,26 @@ a:active {
   color: $color-accent1;
 }
 
+// https://github.com/philipwalton/flexbugs#3-min-height-on-a-flex-container-wont-apply-to-its-flex-items
+.body-container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+// https://github.com/philipwalton/flexbugs#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored
 main {
-  flex: 1;
+  flex: 1 1 0%;
 }

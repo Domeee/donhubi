@@ -1,1 +1,1 @@
-console.log('app started');
+require('viewport-units-buggyfill').init();

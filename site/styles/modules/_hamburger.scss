@@ -16,11 +16,11 @@ label[for="nav-trigger"] {
 }
 
 .nav-trigger:checked+label {
-  top: 245px;
+  top: 24.5rem;
 }
 
 .nav-trigger:checked~.body-container {
-  top: 230px;
+  top: 23rem;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 

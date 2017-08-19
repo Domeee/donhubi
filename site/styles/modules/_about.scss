@@ -12,17 +12,18 @@
 }
 
 main section {
-  width: 80vw;
+  width: 90vw;
   margin: 8vh auto 0;
 }
 
 .section-header {
   margin-bottom: -2vh;
+  word-wrap: break-word;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   font-family: 'Bitter', serif;
   font-weight: 700;
-  font-size: 4.2rem;
+  font-size: 3.6rem;
 }
 
 .section-container-grey {

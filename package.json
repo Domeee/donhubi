@@ -24,5 +24,8 @@
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "viewport-units-buggyfill": "^0.6.2"
   }
 }

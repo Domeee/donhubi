@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dominique Huber</title>
   <meta name="author" content="Dominique Huber">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Lato" rel="stylesheet">
   <link rel="stylesheet" href="donhubi.css">
 </head>
@@ -25,7 +25,7 @@
     <header>
       <div class="header-container">
         <a href="/" alt="Startseite">
-          <img src="logo.png" alt="Don Hubi Logo">
+          <img src="assets/logo.png" alt="Don Hubi Logo">
         </a>
       </div>
     </header>

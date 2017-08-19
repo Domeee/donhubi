@@ -1,13 +1,40 @@
 defmodule Mix.Tasks.Don.Build do
   use Mix.Task
   
-  def run(_) do
-    # Build Pages
-    DonHubi.Page.list
-    |> Enum.map(&(DonHubi.Page.compile &1))
-    |> Enum.each(&(DonHubi.Page.save &1))
+  def run([]) do
+    # Clean
+    File.rm_rf! "build"
+
+    # Init build structure
+    File.mkdir! "build"
+
+    # Compile and copy Pages
+    DonHubi.Page.compile
 
     # Copy Assets
     DonHubi.Assets.copy
+
+    # Compile JavaScript and SASS
+    System.cmd "npm", ["run", "build"], into: IO.stream(:stdio, :line)
+  end
+
+  def run(["assets"]) do
+    DonHubi.Assets.copy
+  end
+
+  def run(["layouts"]) do
+    DonHubi.Page.compile
+  end
+
+  def run(["pages"]) do
+    DonHubi.Page.compile
+  end
+
+  def run(["scripts"]) do
+    System.cmd "npm", ["run", "build"], into: IO.stream(:stdio, :line)
+  end
+
+  def run(["styles"]) do
+    System.cmd "npm", ["run", "build"], into: IO.stream(:stdio, :line)
   end
 end

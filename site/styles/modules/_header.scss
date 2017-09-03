@@ -19,6 +19,7 @@ header {
     img {
       max-height: 4vh;
       min-height: 30px;
+      border: none;
       @include desktop {
         max-height: 2vh;
       }

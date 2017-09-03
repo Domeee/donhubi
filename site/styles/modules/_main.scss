@@ -148,17 +148,20 @@ main {
 
   .testimonial {
     line-height: 200%;
+    font-style: italic;
   }
 
   .testimonial::before {
     content: "„";
     font-size: 3rem;
+    font-style: italic;
     color: $color-accent1;
   }
 
   .testimonial::after {
     content: "“";
     font-size: 3rem;
+    font-style: italic;
     color: $color-accent1;
   }
 

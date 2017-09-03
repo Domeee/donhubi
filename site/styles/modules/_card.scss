@@ -25,14 +25,27 @@ main {
     @include desktop {
       margin: 3vh 2vw;
     }
-    .project-title {
-      word-wrap: break-word;
-      color: rgba(0, 0, 0, 0.8);
-      text-transform: uppercase;
-      font-family: 'Bitter', serif;
-      font-weight: 700;
-      font-size: 2.4rem;
-      letter-spacing: 0.1rem;
+    .project-title-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      .project-title {
+        word-wrap: break-word;
+        color: rgba(0, 0, 0, 0.8);
+        text-transform: uppercase;
+        font-family: 'Bitter', serif;
+        font-weight: 700;
+        font-size: 2.4rem;
+        letter-spacing: 0.1rem;
+      }
+      .project-subtitle {
+        word-wrap: break-word;
+        color: $color-grey-light;
+        font-size: 1.4rem;
+        @include tablet {
+          font-size: 1.6rem;
+        }
+      }
     }
     .project-description {
       margin-top: 2vh;

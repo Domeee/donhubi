@@ -1,62 +1,62 @@
 main {
   .projects {
-  margin-top: 8vh;
-  @include tablet {
-    margin-top: 6vh;
-  }
-  @include desktop {
-    margin-top: 0vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
-.project {
-  margin-top: 4vh;
-  padding-bottom: 2vh;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  @include desktop {
-    max-width: 23vw;
-    padding-bottom: 1vh;
-  }
-  .project-text {
-    margin: 4vh 4vw;
-    @include desktop {
-      margin: 3vh 2vw;
+    margin-top: 8vh;
+    @include tablet {
+      margin-top: 6vh;
     }
-    .project-title-container {
+    @include desktop {
+      margin-top: 0vh;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
-      align-items: baseline;
-      .project-title {
-        word-wrap: break-word;
-        color: rgba(0, 0, 0, 0.8);
-        text-transform: uppercase;
-        font-family: 'Bitter', serif;
-        font-weight: 700;
-        font-size: 2.4rem;
-        letter-spacing: 0.1rem;
+    }
+    .project {
+      margin-top: 4vh;
+      padding-bottom: 2vh;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      @media (min-width: 1399px) {
+        width: 23vw;
+        max-width: 23vw;
+        padding-bottom: 1vh;
       }
-      .project-subtitle {
-        word-wrap: break-word;
-        color: $color-grey-light;
-        font-size: 1.4rem;
-        @include tablet {
-          font-size: 1.6rem;
+      .project-text {
+        margin: 4vh 4vw;
+        @include desktop {
+          margin: 3vh 2vw;
+        }
+        .project-title-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          .project-title {
+            word-wrap: break-word;
+            color: rgba(0, 0, 0, 0.8);
+            text-transform: uppercase;
+            font-family: 'Bitter', serif;
+            font-weight: 700;
+            font-size: 2.4rem;
+            letter-spacing: 0.1rem;
+          }
+          .project-subtitle {
+            word-wrap: break-word;
+            color: $color-grey-light;
+            font-size: 1.4rem;
+            @include tablet {
+              font-size: 1.6rem;
+            }
+          }
+        }
+        .project-description {
+          margin-top: 2vh;
+        }
+        .project-action {
+          display: block;
+          margin-top: 2vh;
         }
       }
-    }
-    .project-description {
-      margin-top: 2vh;
-    }
-    .project-action {
-      display: block;
-      margin-top: 2vh;
+      img {
+        border: none;
+      }
     }
   }
-  img {
-    border: none;
-  }
-}
 }

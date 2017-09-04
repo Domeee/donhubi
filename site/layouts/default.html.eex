@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Dominique Huber, Freelance Software Entwickler</title>
-  <meta name="description" content="Freelance Software Entwicklung und Coaching von Entwicklungsteams" >
+  <meta name="description" content="Freelance Software Entwicklung und Coaching von Entwicklungsteams">
   <meta name="keywords" content="Microsoft .NET, C#, Angular, AngularJS, React, ReactJS, Meteor, MeteorJS, Elixir, Phoenix, Architektur Review, Rapid Prototyping, Prototyping, Minimum Viable Product, technische Projektleitung">
   <meta name="author" content="Dominique Huber">
   <link rel="icon" href="assets/favicon.ico">
@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <ul class="navigation-handhel">
+  <ul class="navigation-handheld">
     <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
     <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
     <li><a href="projects.html" alt="Projekte">Projekte</a></li>
@@ -98,6 +98,14 @@
       </footer>
     </div>
   </div>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105817906-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments) };
+    gtag('js', new Date());
+    gtag('config', 'UA-105817906-1');
+  </script>
   <script src="donhubi.js"></script>
 </body>
 

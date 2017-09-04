@@ -43,6 +43,10 @@ main {
       margin-bottom: 0vh;
     }
   }
+  
+  .frontpage {
+    margin-top: 12vh;
+  }
 
   .section-subheader {
     margin-top: 4vh;
@@ -222,5 +226,9 @@ main {
       height: 50px;
       border: none;
     }
+  }
+
+  .homescreen {
+    padding: 8vh 0 12vh;
   }
 }

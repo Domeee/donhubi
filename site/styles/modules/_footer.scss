@@ -55,5 +55,17 @@ footer {
         }
       }
     }
+
+    .social-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .social-footer-icon {
+        margin-bottom: 2vh;
+        max-height: 25px;
+        height: 25px;
+        border: none;
+      }
+    }
   }
 }

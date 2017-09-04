@@ -206,4 +206,20 @@ main {
   .versioninfo {
     font-size: 1.4rem;
   }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include desktop {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .social-icon {
+      margin-top: 4vh;
+      max-height: 50px;
+      height: 50px;
+      border: none;
+    }
+  }
 }

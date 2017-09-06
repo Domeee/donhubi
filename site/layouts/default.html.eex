@@ -76,7 +76,7 @@
           <section>
             <h1>kontakt</h1>
             <ul>
-              <li><a href="projects.html" alt="Projekte">Kontaktformular</a></li>
+              <li><a href="contact.html" alt="Kontakt">Kontaktmöglichkeiten</a></li>
               <li><a href="mailto:hello@donhubi.ch" alt="hello@donhubi.ch">hello@donhubi.ch</a></li>
               <li><a href="tel:+41793398007" alt="+41 79 339 80 07">+41 79 339 80 07</a></li>
             </ul>

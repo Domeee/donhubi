@@ -3,11 +3,18 @@ header {
   align-items: center;
   height: 7rem;
   background-color: $color-primary;
+  @include tablet {
+    height: 11.5rem;
+  }
+  @include desktop {
+    height: 14rem;
+  }
   .header-container {
-    width: $width-content-mobile;
     height: 4.5rem;
+    width: $width-content-mobile;
     margin: 0 auto;
     @include tablet {
+      height: 6.75rem;
       width: $width-content-tablet;
     }
     @include desktop {
@@ -16,9 +23,15 @@ header {
       justify-content: space-between;
       align-items: baseline;
     }
+    .logo-link {
+      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    }
     img {
       height: 4.5rem;
       border: none;
+      @include tablet {
+        height: 6.75rem;
+      }
     }
   }
 }

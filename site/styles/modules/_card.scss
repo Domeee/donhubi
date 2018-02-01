@@ -1,38 +1,33 @@
 main {
   .projects {
-    margin-top: 6vh;
-    @include tablet {
-      margin-top: 6vh;
-    }
+    margin-top: 0;
     @include desktop {
-      margin-top: 0vh;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
     .project {
-      margin-top: 2vh;
-      padding-bottom: 2vh;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      margin-top: 6rem;
+      padding-bottom: 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
       @media (min-width: 1399px) {
-        width: 23vw;
-        max-width: 23vw;
-        padding-bottom: 1vh;
+        width: 45%;
       }
       .project-text {
-        margin: 4vh 4vw;
+        margin: 2rem 2rem;
         @include desktop {
-          margin: 3vh 2vw;
+          margin: 4rem 4rem;
         }
         .project-title-container {
           display: flex;
           justify-content: space-between;
           align-items: baseline;
+          flex-wrap: wrap;
           .project-title {
             word-wrap: break-word;
             color: rgba(0, 0, 0, 0.8);
             text-transform: uppercase;
-            font-family: 'Bitter', serif;
+            font-family: "Bitter", serif;
             font-weight: 700;
             font-size: 2.4rem;
             letter-spacing: 0.1rem;
@@ -47,11 +42,11 @@ main {
           }
         }
         .project-description {
-          margin-top: 2vh;
+          margin-top: 2.4rem;
         }
         .project-action {
           display: block;
-          margin-top: 2vh;
+          margin-top: 2.4rem;
         }
       }
       img {

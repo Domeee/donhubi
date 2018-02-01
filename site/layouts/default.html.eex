@@ -44,11 +44,21 @@
 
 <body>
   <ul class="navigation-handheld">
-    <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-    <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
-    <li><a href="projects.html" alt="Projekte">Projekte</a></li>
-    <li><a href="about.html" alt="Über mich">Über mich</a></li>
-    <li><a href="contact.html" alt="Kontakt">Kontakt</a></li>
+    <li>
+      <a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a>
+    </li>
+    <li>
+      <a href="coaching.html" alt="Coaching">Coaching</a>
+    </li>
+    <li>
+      <a href="projects.html" alt="Projekte">Projekte</a>
+    </li>
+    <li>
+      <a href="about.html" alt="Über mich">Über mich</a>
+    </li>
+    <li>
+      <a href="contact.html" alt="Kontakt">Kontakt</a>
+    </li>
   </ul>
   <input type="checkbox" id="nav-trigger" class="nav-trigger" />
   <label for="nav-trigger"></label>
@@ -57,14 +67,24 @@
       <header>
         <div class="header-container">
           <a href="/" alt="Startseite">
-            <img src="assets/logo.png" alt="Don Hubi Logo">
+            <img src="assets/batman.png" alt="Don Hubi Logo">
           </a>
           <ul class="navigation-desktop">
-            <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-            <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
-            <li><a href="projects.html" alt="Projekte">Projekte</a></li>
-            <li><a href="about.html" alt="Über mich">Über mich</a></li>
-            <li><a href="contact.html" alt="Kontakt">Kontakt</a></li>
+            <li>
+              <a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a>
+            </li>
+            <li>
+              <a href="coaching.html" alt="Coaching">Coaching</a>
+            </li>
+            <li>
+              <a href="projects.html" alt="Projekte">Projekte</a>
+            </li>
+            <li>
+              <a href="about.html" alt="Über mich">Über mich</a>
+            </li>
+            <li>
+              <a href="contact.html" alt="Kontakt">Kontakt</a>
+            </li>
           </ul>
         </div>
       </header>
@@ -76,23 +96,37 @@
           <section>
             <h1>dienstleistungen</h1>
             <ul>
-              <li><a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a></li>
-              <li><a href="coaching.html" alt="Coaching">Coaching</a></li>
+              <li>
+                <a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a>
+              </li>
+              <li>
+                <a href="coaching.html" alt="Coaching">Coaching</a>
+              </li>
             </ul>
           </section>
           <section>
             <h1>referenzen</h1>
             <ul>
-              <li><a href="projects.html" alt="Projekte">Projekte</a></li>
-              <li><a href="about.html" alt="Über mich">Über mich</a></li>
+              <li>
+                <a href="projects.html" alt="Projekte">Projekte</a>
+              </li>
+              <li>
+                <a href="about.html" alt="Über mich">Über mich</a>
+              </li>
             </ul>
           </section>
           <section>
             <h1>kontakt</h1>
             <ul>
-              <li><a href="contact.html" alt="Kontakt">Kontaktmöglichkeiten</a></li>
-              <li><a href="mailto:hello@donhubi.ch" alt="hello@donhubi.ch">hello@donhubi.ch</a></li>
-              <li><a href="tel:+41793398007" alt="+41 79 339 80 07">+41 79 339 80 07</a></li>
+              <li>
+                <a href="contact.html" alt="Kontakt">Kontaktmöglichkeiten</a>
+              </li>
+              <li>
+                <a href="mailto:hello@donhubi.ch" alt="hello@donhubi.ch">hello@donhubi.ch</a>
+              </li>
+              <li>
+                <a href="tel:+41793398007" alt="+41 79 339 80 07">+41 79 339 80 07</a>
+              </li>
             </ul>
           </section>
           <section class="social-section">
@@ -102,11 +136,11 @@
               </svg>
             </a>
             <a href="https://www.linkedin.com/in/dominique-huber">
-                    <img class="social-footer-icon" src="assets/logo-linkedin.png" alt="LinkedIn">
-                  </a>
+              <img class="social-footer-icon" src="assets/logo-linkedin.png" alt="LinkedIn">
+            </a>
             <a href="https://www.xing.com/profile/Dominique_Huber">
-                    <img class="social-footer-icon" src="assets/logo-xing.svg" alt="Xing">
-                  </a>
+              <img class="social-footer-icon" src="assets/logo-xing.svg" alt="Xing">
+            </a>
           </section>
         </div>
       </footer>

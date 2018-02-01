@@ -5,8 +5,8 @@
 
 label[for="nav-trigger"] {
   position: fixed;
-  top: 2vh;
-  right: 3vw;
+  top: 2rem;
+  right: 2rem;
   z-index: 2;
   width: 30px;
   height: 30px;
@@ -22,11 +22,11 @@ label[for="nav-trigger"] {
   }
 }
 
-.nav-trigger:checked+label {
+.nav-trigger:checked + label {
   top: 24.5rem;
 }
 
-.nav-trigger:checked~.body-container-wrapper {
+.nav-trigger:checked ~ .body-container-wrapper {
   top: 23rem;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }

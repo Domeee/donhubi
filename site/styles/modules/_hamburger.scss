@@ -24,12 +24,13 @@ label[for="nav-trigger"] {
 }
 
 .nav-trigger:checked + label {
-  // TODO
-  top: 24.5rem;
+  top: 27rem;
+  @include tablet {
+    top: 29.25rem;
+  }
 }
 
 .nav-trigger:checked ~ .body-container-wrapper {
-  // TODO
-  top: 23rem;
+  top: 25rem;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }

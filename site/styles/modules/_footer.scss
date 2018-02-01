@@ -33,14 +33,13 @@ footer {
         display: block;
       }
       h1 {
-        font-family: 'Bitter', serif;
+        font-family: "Bitter", serif;
         font-size: 2rem;
         font-weight: 700;
         text-transform: uppercase;
-        color: #FFF;
+        color: #fff;
       }
       li {
-        line-height: 200%;
         font-size: 1.8rem;
         text-align: center;
         @include desktop {

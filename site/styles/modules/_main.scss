@@ -5,150 +5,151 @@ main {
     font-size: 2rem;
     font-weight: 400;
   }
-  
+
   .quotee {
     color: $color-grey-light;
   }
-  
+
   .quotee-dark {
     color: rgba(0, 0, 0, 0.8);
   }
-  
-  section {
-    width: $width-content-mobile;
-    margin: 8vh auto 0;
+
+  .section-container {
+    padding: 1px 0 6rem;
+    background-color: #fff;
     @include tablet {
-      width: $width-content-tablet;
-      margin: 6vh auto 0;
+      padding-bottom: 9rem;
     }
     @include desktop {
-      width: $width-content-desktop;
-      margin: 4vh auto 0;
+      padding-bottom: 12rem;
     }
-  }
-  
-  .section-header {
-    margin-bottom: -2vh;
-    word-wrap: break-word;
-    color: rgba(0, 0, 0, 0.8);
-    text-transform: uppercase;
-    font-family: 'Bitter', serif;
-    font-weight: 700;
-    font-size: 3.6rem;
-    letter-spacing: 0.1rem;
-    @include tablet {
-      margin-bottom: -1vh;
-    }
-    @include desktop {
-      margin-bottom: 0vh;
-    }
-  }
-  
-  .frontpage {
-    margin-top: 12vh;
   }
 
-  .section-subheader {
-    margin-top: 4vh;
-    word-wrap: break-word;
-    color: rgba(0, 0, 0, 0.8);
-    font-family: 'Bitter', serif;
-    font-weight: 700;
-    font-size: 2.4rem;
-    letter-spacing: 0.1rem;
-    line-height: 150%;
-  }
-  
-  .section-container {
-    padding: 1px 0 8vh;
-    background-color: #FFF;
-    @include tablet {
-      padding-bottom: 6vh;
-    }
-    @include desktop {
-      padding-bottom: 4vh;
-    }
-  }
-  
   .section-container-grey {
     @extend .section-container;
     background-color: $color-grey-lightest;
   }
-  
+
   .section-container-red {
     @extend .section-container;
-    color: #FFF;
+    color: #fff;
     background-color: $color-accent1;
   }
-  
+
+  section {
+    width: $width-content-mobile;
+    margin: 6rem auto 0;
+    @include tablet {
+      width: $width-content-tablet;
+      margin: 9rem auto 0;
+    }
+    @include desktop {
+      width: $width-content-desktop;
+      margin: 12rem auto 0;
+    }
+  }
+
+  .section-header {
+    word-wrap: break-word;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-family: "Bitter", serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    letter-spacing: 0.1rem;
+    margin-top: 4.5rem;
+    @include tablet {
+      margin-top: 4.5rem;
+    }
+    @include desktop {
+      margin-top: 6rem;
+    }
+  }
+
+  .section-subheader {
+    word-wrap: break-word;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Bitter", serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 4.8rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    @include tablet {
+      margin-top: 4.5rem;
+    }
+    @include desktop {
+      margin-top: 6rem;
+    }
+  }
+
   .sub-content-section {
-    margin-top: 4vh;
+    margin-top: 1.5rem;
     @include tablet {
-      margin-top: 2vh;
+      margin-top: 1.5rem;
     }
     @include desktop {
-      margin-top: 1vh;
+      margin-top: 2rem;
     }
   }
-  
+
   .sub-content-quote {
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
     @include tablet {
-      margin-top: 6vh;
-      margin-bottom: 6vh;
+      margin-top: 3.5rem;
+      padding-bottom: 1.5rem;
     }
     @include desktop {
-      margin-top: 3vh;
-      margin-bottom: 3vh;
+      margin-top: 4rem;
+      padding-bottom: 2rem;
     }
   }
-  
-  .flow-text {
-    line-height: 150%;
-  }
-  
+
   .contact-button-container {
-    margin-top: 8vh;
-    margin-bottom: 4vh;
+    margin-top: 3rem;
     @include tablet {
-      margin-top: 6vh;
-      margin-bottom: 2vh;
+      margin-top: 4.5rem;
     }
     @include desktop {
-      margin-top: 4vh;
-      margin-bottom: 1vh;
+      margin-top: 6rem;
     }
   }
-  
+
   .contact-button:link,
   .contact-button:visited,
   .contact-button:hover,
   .contact-button:active {
-    padding: 2vh 8vw;
+    padding: 1.2rem 3.2rem;
     font-weight: 700;
-    background-color: #FFF;
+    background-color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     border: none;
     border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -2px rgba(0, 0, 0, 0.2);
     @include tablet {
-      padding: 1.5vw 3vw;
+      padding: 1.8rem 4.8rem;
     }
     @include desktop {
-      padding: 0.5vw 1vw;
+      padding: 2.4rem 6.4rem;
     }
   }
-  
+
   ul {
-    margin-top: 2vh;
-    margin-left: 4vw;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    @include tablet {
+      margin-top: 1.5rem;
+      margin-left: 4.5rem;
+    }
     @include desktop {
-      margin-left: 2vw;
+      margin-top: 2rem;
+      margin-left: 6rem;
     }
   }
-  
+
   li::before {
     content: "#";
     display: inline-block;
@@ -158,13 +159,11 @@ main {
   }
 
   li {
-    margin-top: 1vh;
     margin-left: 5px;
     text-indent: -10px;
   }
 
   .testimonial {
-    line-height: 200%;
     font-style: italic;
   }
 
@@ -183,19 +182,27 @@ main {
   }
 
   .testimonial-author {
-    margin-top: 2vh;
+    margin-top: 0.5rem;
     display: flex;
     align-items: center;
     font-size: 1.3rem;
+    @include tablet {
+      margin-top: 0.75rem;
+    }
     @include desktop {
-      margin-top: 1vh;
+      margin-top: 1rem;
     }
     img {
-      height: 3vh;
-      min-height: 30px;
+      height: 60px;
       width: auto;
       border-radius: 50%;
-      margin-right: 1vw;
+      margin-right: 1rem;
+      @include tablet {
+        margin-right: 1.5rem;
+      }
+      @include desktop {
+        margin-right: 2rem;
+      }
     }
   }
 
@@ -221,63 +228,53 @@ main {
       justify-content: space-around;
     }
     .social-icon {
-      margin-top: 4vh;
-      max-height: 50px;
-      height: 50px;
+      height: 5rem;
       border: none;
     }
   }
 
-  .homescreen {
-    padding: 8vh 0 12vh;
-  }
-
   .about-me-section-container {
-    margin-top: 4vh;
+    margin-top: 1rem;
     @include tablet {
-      margin-top: 2vh;
+      margin-top: 1.5rem;
       display: flex;
       flex-direction: row-reverse;
     }
     @include desktop {
-      margin-top: 1vh;
+      margin-top: 2rem;
       display: flex;
       flex-direction: row-reverse;
     }
     img {
       border-radius: 10%;
-      height: 35vh;
-      max-height: 200px;
-      max-width: 150.396px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      height: 20rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     }
     .about-me-section {
       @include tablet {
-        max-width: 65%;
-        margin-top: -2vh;
+        width: 65%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
       }
       @include desktop {
         width: 65%;
-        max-width: 65%;
-        margin-top: -1vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
       }
+      .sub-content-section:first-child {
+        margin-top: 0;
+      }
     }
     .about-me-section-image {
       @include tablet {
-        padding-left: 4vw;
+        padding-left: 3.5rem;
         width: 35%;
-        max-width: 35%;
       }
       @include desktop {
-        padding-left: 4vw;
+        padding-left: 7rem;
         width: 35%;
-        max-width: 35%;
       }
     }
   }

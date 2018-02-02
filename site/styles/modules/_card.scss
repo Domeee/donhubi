@@ -44,6 +44,15 @@ main {
         .project-description {
           margin-top: 2.4rem;
         }
+        .project-metadata {
+          margin-top: 2rem;
+        }
+        .project-tag {
+          font-size: 1.4rem;
+          padding: 0.5rem 1rem;
+          background-color: $color-grey-light;
+          border-radius: 2.5rem;
+        }
         .project-action {
           display: block;
           margin-top: 2.4rem;

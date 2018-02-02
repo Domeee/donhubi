@@ -248,18 +248,16 @@ main {
     }
     img {
       border-radius: 10%;
-      height: 20rem;
+      width: 15rem;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     }
     .about-me-section {
       @include tablet {
-        width: 65%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
       }
       @include desktop {
-        width: 65%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -272,16 +270,16 @@ main {
       margin-top: 4rem;
       margin-bottom: 4rem;
       @include tablet {
+        min-width: 18.5rem; // img + padding
         margin-bottom: 0;
         margin-top: 0;
         padding-left: 3.5rem;
-        width: 35%;
       }
       @include desktop {
+        min-width: 22rem; // img + padding
         margin-bottom: 0;
         margin-top: 0;
         padding-left: 7rem;
-        width: 35%;
       }
     }
   }

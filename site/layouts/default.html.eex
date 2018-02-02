@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html itemscope itemtype="<%= @frontmatter.schema %>">
 
 <head>
   <meta charset="UTF-8">
@@ -12,19 +12,23 @@
   <link rel="icon" href="assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="donhubi.css">
-  <meta property="og:title" content="Dominique Huber Freelance Software Entwickler" />
+  <meta property="og:title" content="Dominique Huber - <%= @frontmatter.title %>" />
   <meta property="og:url" content="https://donhubi.ch" />
-  <meta property="og:description" content="Web & Mobile Software Entwicklung und Coaching von Entwicklungsteams" />
-  <meta property="og:image" content="https://donhubi.ch/assets/batman.png" />
-  <meta property="og:type" content="article" />
+  <meta property="og:description" content="<%= @frontmatter.description %>" />
+  <meta property="og:image" content="https://donhubi.ch/assets/<%= @frontmatter.image %>" />
+  <meta property="og:type" content="<%= @frontmatter.type %>" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Dominique Huber Freelance Software Entwickler" />
+  <meta name="twitter:title" content="Dominique Huber - <%= @frontmatter.title %>" />
   <meta name="twitter:url" content="https://donhubi.ch" />
-  <meta name="twitter:description" content="Web & Mobile Software Entwicklung und Coaching von Entwicklungsteams" />
-  <meta name="twitter:image" content="https://donhubi.ch/assets/batman.png" />
-  <meta itemprop="name" content="Dominique Huber Freelance Software Entwickler">
-  <meta itemprop="description" content="Web & Mobile Software Entwicklung und Coaching von Entwicklungsteams">
-  <meta itemprop="image" content="https://donhubi.ch/assets/batman.png">
+  <meta name="twitter:description" content="<%= @frontmatter.description %>" />
+  <meta name="twitter:image" content="https://donhubi.ch/assets/<%= @frontmatter.image %>" />
+  <meta itemprop="name" content="Dominique Huber - <%= @frontmatter.title %>">
+  <meta itemprop="description" content="<%= @frontmatter.description %>">
+  <meta itemprop="image" content="https://donhubi.ch/assets/<%= @frontmatter.image %>">
+  <meta itemprop="author" content="Dominique Huber">
+  <meta itemprop="datePublished" content="<%= DateTime.utc_now %>">
+  <meta itemprop="headline" content="<%= @frontmatter.description %>">
+  <meta itemprop="publisher" content="Dominique Huber">
   <!-- Piwik -->
   <script type="text/javascript">
     var _paq = _paq || [];

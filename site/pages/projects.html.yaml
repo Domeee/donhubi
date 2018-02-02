@@ -1,6 +1,10 @@
 ---
 name: projects
 title: Projekte
+description: Projekte und digitale Spielereien
+image: batman.png
+type: website
+schema: http://schema.org/WebSite
 ---
 <div class="section-container grow">
   <section>

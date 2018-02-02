@@ -1,6 +1,10 @@
 ---
 name: projects
 title: Projekt Crowdie
+description: Von der Idee zu den ersten zehn Kunden in 29 Tagen.
+image: crowdie.jpg
+type: article
+schema: http://schema.org/Article
 ---
 <div class="section-container">
   <section>

@@ -1,6 +1,10 @@
 ---
 name: contact
 title: Kontakt
+description: Web & Mobile Software Entwicklung und Coaching von Entwicklungsteams
+image: batman.png
+type: website
+schema: http://schema.org/WebSite
 ---
 <div class="section-container">
   <section>

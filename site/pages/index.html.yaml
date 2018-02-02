@@ -1,6 +1,10 @@
 ---
 name: index
 title: Freelance Software Entwickler
+description: Web & Mobile Software Entwicklung und Coaching von Entwicklungsteams
+image: batman.jpg
+type: website
+schema: http://schema.org/WebSite
 ---
 <div class="section-container">
   <section>

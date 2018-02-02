@@ -1,6 +1,10 @@
 ---
 name: 404
-title: Page not found 
+title: Seite nicht gefunden
+description: Upps... Diese Seite gibt es nicht ;-)
+image: batman.png
+type: website
+schema: http://schema.org/WebSite
 ---
 <div class="section-container grow">
   <section>

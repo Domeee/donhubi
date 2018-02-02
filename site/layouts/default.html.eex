@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Dominique Huber, Freelance Software Entwickler</title>
+  <title>Dominique Huber - <%= @frontmatter.title %></title>
   <meta name="description" content="Freelance Software Entwicklung und Coaching von Entwicklungsteams">
-  <meta name="keywords" content="Microsoft .NET, C#, Angular, AngularJS, React, ReactJS, Meteor, MeteorJS, Elixir, Phoenix, Architektur Review, Rapid Prototyping, Prototyping, Minimum Viable Product, technische Projektleitung">
+  <meta name="keywords" content="Microsoft .NET, C#, Angular, AngularJS, React, ReactJS, Meteor, MeteorJS, Elixir, Phoenix, Architektur Review, Rapid Prototyping, Prototyping, Fullstack">
   <meta name="author" content="Dominique Huber">
   <link rel="icon" href="assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
@@ -45,19 +45,19 @@
 <body>
   <ul class="navigation-handheld">
     <li>
-      <a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a>
+      <a href="dev.html" alt="Software Entwicklung" <%= if @frontmatter.name === "dev" do %>class="active"<% end %>>Software Entwicklung</a>
     </li>
     <li>
-      <a href="coaching.html" alt="Coaching">Coaching</a>
+      <a href="coaching.html" alt="Coaching" <%= if @frontmatter.name === "coaching" do %>class="active"<% end %>>Coaching</a>
     </li>
     <li>
-      <a href="projects.html" alt="Projekte">Projekte</a>
+      <a href="projects.html" alt="Projekte" <%= if @frontmatter.name === "projects" do %>class="active"<% end %>>Projekte</a>
     </li>
     <li>
-      <a href="about.html" alt="Über mich">Über mich</a>
+      <a href="about.html" alt="Über mich" <%= if @frontmatter.name === "about" do %>class="active"<% end %>>Über mich</a>
     </li>
     <li>
-      <a href="contact.html" alt="Kontakt">Kontakt</a>
+      <a href="contact.html" alt="Kontakt" <%= if @frontmatter.name === "contact" do %>class="active"<% end %>>Kontakt</a>
     </li>
   </ul>
   <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -71,25 +71,25 @@
           </a>
           <ul class="navigation-desktop">
             <li>
-              <a href="dev.html" alt="Software Entwicklung">Software Entwicklung</a>
-            </li>
-            <li>
-              <a href="coaching.html" alt="Coaching">Coaching</a>
-            </li>
-            <li>
-              <a href="projects.html" alt="Projekte">Projekte</a>
-            </li>
-            <li>
-              <a href="about.html" alt="Über mich">Über mich</a>
-            </li>
-            <li>
-              <a href="contact.html" alt="Kontakt">Kontakt</a>
-            </li>
+      <a href="dev.html" alt="Software Entwicklung" <%= if @frontmatter.name === "dev" do %>class="active"<% end %>>Software Entwicklung</a>
+    </li>
+    <li>
+      <a href="coaching.html" alt="Coaching" <%= if @frontmatter.name === "coaching" do %>class="active"<% end %>>Coaching</a>
+    </li>
+    <li>
+      <a href="projects.html" alt="Projekte" <%= if @frontmatter.name === "projects" do %>class="active"<% end %>>Projekte</a>
+    </li>
+    <li>
+      <a href="about.html" alt="Über mich" <%= if @frontmatter.name === "about" do %>class="active"<% end %>>Über mich</a>
+    </li>
+    <li>
+      <a href="contact.html" alt="Kontakt" <%= if @frontmatter.name === "contact" do %>class="active"<% end %>>Kontakt</a>
+    </li>
           </ul>
         </div>
       </header>
       <main>
-        <%= content %>
+        <%= @content %>
       </main>
       <footer>
         <div class="footer-container">

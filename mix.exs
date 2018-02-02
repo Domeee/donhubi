@@ -14,7 +14,7 @@ defmodule DonHubi.Mixfile do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :cowboy, :plug],
+      extra_applications: [:logger, :cowboy, :plug, :yamerl],
       mod: {DonHubi, []}
     ]
   end
@@ -24,7 +24,8 @@ defmodule DonHubi.Mixfile do
     [
       {:cowboy, "~> 1.1"},
       {:plug, "~> 1.4"},
-      {:ex_guard, "~> 1.2", only: :dev}
+      {:ex_guard, "~> 1.2", only: :dev},
+      {:yamerl, "~> 0.6.0"}
     ]
   end
 end

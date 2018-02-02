@@ -6,7 +6,7 @@ guard("assets")
 |> notification(:auto)
 
 guard("layouts")
-|> command("mix don.build layouts")
+|> command("mix don.build pages")
 |> watch(~r{site/layouts})
 |> notification(:auto)
 

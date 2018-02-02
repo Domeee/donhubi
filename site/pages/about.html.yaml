@@ -1,3 +1,7 @@
+---
+name: about
+title: über mich
+---
 <div class="section-container">
   <section>
     <p class="quote">"I have no special talent. I am only passionately curious."</p>
@@ -7,7 +11,7 @@
 <div class="section-container-grey">
   <section>
     <h1 class="section-header">wer bin ich</h1>
-    <div class="about-me-section-container">
+    <div class="-">
       <div class="about-me-section-image">
         <img src="assets/hubi.png" alt="Dominique Huber">
       </div>

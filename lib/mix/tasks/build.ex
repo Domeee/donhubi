@@ -1,7 +1,7 @@
 defmodule Mix.Tasks.Don.Build do
   use Mix.Task
   
-  def run([]) do
+  def run([]) do    
     # Clean
     File.rm_rf! "build"
 
@@ -22,11 +22,8 @@ defmodule Mix.Tasks.Don.Build do
     DonHubi.Assets.copy
   end
 
-  def run(["layouts"]) do
-    DonHubi.Page.compile
-  end
-
   def run(["pages"]) do
+    Application.start :yamerl
     DonHubi.Page.compile
   end
 

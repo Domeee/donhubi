@@ -6,15 +6,24 @@ defmodule DonHubi.Page do
   end
 
   defp compile(page) do
-    page_content = EEx.eval_file "site/layouts/default.html.eex", [content: File.read! "site/pages/" <> page]
+    page_file = File.read! "site/pages/" <> page
+    { frontmatter, html_content } =  parts page_file
+    fm = DonHubi.FrontMatter.parse frontmatter
+    page_content = EEx.eval_file "site/layouts/default.html.eex", assigns: [content: html_content, frontmatter: fm]
     {page, page_content}
   end
 
   defp save({page, page_content}) do
-    File.write! "build/#{page}", page_content
+    file_name = String.replace_suffix(page, ".yaml", "")
+    File.write! "build/#{file_name}", page_content
   end
 
   defp list do
     File.ls! "site/pages"
+  end
+
+  defp parts(page_content) do
+    [frontmatter|content] = String.split page_content, "\n---\n"
+    { frontmatter, Enum.join(content, "\n") }
   end
 end

@@ -9,6 +9,7 @@ defmodule Mix.Tasks.Don.Build do
     File.mkdir! "build"
 
     # Compile and copy Pages
+    Application.start :yamerl
     DonHubi.Page.compile
 
     # Copy Assets

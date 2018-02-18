@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  overflow-x: hidden; // Related to hamburger
   font-size: 1.6rem;
   line-height: 3.2rem;
   @include tablet {
@@ -27,7 +26,6 @@ a:active {
 
 // https://github.com/philipwalton/flexbugs#3-min-height-on-a-flex-container-wont-apply-to-its-flex-items
 .body-container-wrapper {
-  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -38,11 +36,6 @@ a:active {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
   background-color: #fff;
 }
 

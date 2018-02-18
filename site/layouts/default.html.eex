@@ -45,10 +45,8 @@
   <meta itemprop="datePublished" content="<%= DateTime.utc_now %>">
   <meta itemprop="headline" content="<%= @frontmatter.description %>">
   <meta itemprop="publisher" content="Dominique Huber">
-  <!-- Piwik -->
   <script type="text/javascript">
     var _paq = _paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
@@ -59,29 +57,34 @@
       g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
     })();
   </script>
-  <!-- End Piwik Code -->
 </head>
 
 <body>
-  <ul class="navigation-handheld">
-    <li>
-      <a href="dev.html" alt="Software Entwicklung" <%= if @frontmatter.name === "dev" do %>class="active"<% end %>>Software Entwicklung</a>
-    </li>
-    <li>
-      <a href="coaching.html" alt="Coaching" <%= if @frontmatter.name === "coaching" do %>class="active"<% end %>>Coaching</a>
-    </li>
-    <li>
-      <a href="projects.html" alt="Projekte" <%= if @frontmatter.name === "projects" do %>class="active"<% end %>>Projekte</a>
-    </li>
-    <li>
-      <a href="about.html" alt="Über mich" <%= if @frontmatter.name === "about" do %>class="active"<% end %>>Über mich</a>
-    </li>
-    <li>
-      <a href="contact.html" alt="Kontakt" <%= if @frontmatter.name === "contact" do %>class="active"<% end %>>Kontakt</a>
-    </li>
-  </ul>
-  <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-  <label for="nav-trigger" onclick="document.body.scrollTop=0;"></label>
+  <div class="navigation-handheld-container">
+    <div class="navigation-toggle" onClick="document.getElementById('overlay').style.height = document.getElementById('overlay').style.height === '100%' ? '0' : '100%';"></div>
+    <div id="overlay">
+      <div class="overlay-close-container" onClick="document.getElementById('overlay').style.height = document.getElementById('overlay').style.height === '100%' ? '0' : '100%';">
+        <img src="assets/close.svg" alt="">
+      </div>
+      <ul class="navigation-handheld">
+        <li>
+          <a href="dev.html" alt="Software Entwicklung" <%= if @frontmatter.name === "dev" do %>class="active"<% end %>>Software Entwicklung</a>
+        </li>
+        <li>
+          <a href="coaching.html" alt="Coaching" <%= if @frontmatter.name === "coaching" do %>class="active"<% end %>>Coaching</a>
+        </li>
+        <li>
+          <a href="projects.html" alt="Projekte" <%= if @frontmatter.name === "projects" do %>class="active"<% end %>>Projekte</a>
+        </li>
+        <li>
+          <a href="about.html" alt="Über mich" <%= if @frontmatter.name === "about" do %>class="active"<% end %>>Über mich</a>
+        </li>
+        <li>
+          <a href="contact.html" alt="Kontakt" <%= if @frontmatter.name === "contact" do %>class="active"<% end %>>Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="body-container-wrapper">
     <div class="body-container">
       <header>
@@ -91,20 +94,20 @@
           </a>
           <ul class="navigation-desktop">
             <li>
-      <a href="dev.html" alt="Software Entwicklung" <%= if @frontmatter.name === "dev" do %>class="active"<% end %>>Software Entwicklung</a>
-    </li>
-    <li>
-      <a href="coaching.html" alt="Coaching" <%= if @frontmatter.name === "coaching" do %>class="active"<% end %>>Coaching</a>
-    </li>
-    <li>
-      <a href="projects.html" alt="Projekte" <%= if @frontmatter.name === "projects" do %>class="active"<% end %>>Projekte</a>
-    </li>
-    <li>
-      <a href="about.html" alt="Über mich" <%= if @frontmatter.name === "about" do %>class="active"<% end %>>Über mich</a>
-    </li>
-    <li>
-      <a href="contact.html" alt="Kontakt" <%= if @frontmatter.name === "contact" do %>class="active"<% end %>>Kontakt</a>
-    </li>
+              <a href="dev.html" alt="Software Entwicklung" <%= if @frontmatter.name === "dev" do %>class="active"<% end %>>Software Entwicklung</a>
+            </li>
+            <li>
+              <a href="coaching.html" alt="Coaching" <%= if @frontmatter.name === "coaching" do %>class="active"<% end %>>Coaching</a>
+            </li>
+            <li>
+              <a href="projects.html" alt="Projekte" <%= if @frontmatter.name === "projects" do %>class="active"<% end %>>Projekte</a>
+            </li>
+            <li>
+              <a href="about.html" alt="Über mich" <%= if @frontmatter.name === "about" do %>class="active"<% end %>>Über mich</a>
+            </li>
+            <li>
+              <a href="contact.html" alt="Kontakt" <%= if @frontmatter.name === "contact" do %>class="active"<% end %>>Kontakt</a>
+            </li>
           </ul>
         </div>
       </header>

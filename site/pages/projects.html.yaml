@@ -11,6 +11,24 @@ schema: http://schema.org/WebSite
     <h1 class="section-header">projekte und digitale spielereien</h1>
     <div class="sub-content-section projects">
       <div class="project">
+        <a href="https://timebox.innoarchitects.ch" alt="Timebox">
+          <img src="assets/timebox.jpg" alt="Crowdie">
+        </a>
+        <div class="project-text">
+          <div class="project-title-container">
+            <h2 class="project-title">Timebox</h2>
+            <h2 class="project-subtitle">März 2017 bis heute</h2>
+          </div>
+          <p class="project-description">Zeitmanagement muss nicht öde sein! Mit der <a href="https://timebox.innoarchitects.ch" alt="Timebox">Timebox</a> kann intuitiv und auf allen möglichen Geräten die Zeit während Workshops verwaltet werden. <a href="https://innoarchitects.ch" alt="INNOArchitects">INNOArchitects</a> Workshop-Teilnehmer werden so auf trab gehalten.</p>
+          <p class="project-metadata">
+            <span class="project-tag">Progressive Web App</span>
+            <span class="project-tag">React</span>
+            <span class="project-tag">TypeScript</span>
+          </p>
+          <a class="project-action" href="https://timebox.innoarchitects.ch" alt="Timebox">Link zur Timebox</a>
+        </div>
+      </div>
+      <div class="project">
         <a href="crowdie.html" alt="Crowdie">
           <img src="assets/crowdie.jpg" alt="Crowdie">
         </a>
@@ -29,6 +47,26 @@ schema: http://schema.org/WebSite
             <span class="project-tag">JavaScript</span>
           </p>
           <a class="project-action" href="crowdie.html" alt="Crowdie">Details</a>
+        </div>
+      </div>
+      <div class="project">
+        <a href="https://dangerchopper.azurewebsites.net" alt="Danger Chopper">
+          <img src="assets/danger_chopper.jpg" alt="Danger Chopper">
+        </a>
+        <div class="project-text">
+          <div class="project-title-container">
+            <h2 class="project-title">Danger Chopper</h2>
+            <h2 class="project-subtitle">Dezember 2015</h2>
+          </div>
+          <p class="project-description">Die Kuh Elsa muss auf die Alp. Das ist aber gar nicht so einfach, denn Bergbauer Sepp lebt hoch in den Bergen. Zum Glück gibt es den Danger Chopper. Er eilt Sepp zu Hilfe. Aber schafft er es auch, Elsa auf die Alp zu bringen? Probiere es selber im Game-Prototype.</p>
+          <p class="project-metadata">
+            <span class="project-tag">Game Development</span>
+            <span class="project-tag">Unity</span>
+            <span class="project-tag">C#</span>
+            <span class="project-tag">WebGL</span>
+          </p>
+          <a class="project-action" href="https://dangerchopper.azurewebsites.net" alt="Danger Chopper Prototype">Danger Chopper Prototype</a>
+          <a class="project-action" href="https://rinowenger.com/de/portfolio/danger-chopper-game" alt="Rino Wenger">Rino Wenger, Co-Creator des Games</a>
         </div>
       </div>
     </div>

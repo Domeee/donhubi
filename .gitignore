@@ -24,3 +24,5 @@ erl_crash.dump
 
 # npm
 /node_modules/
+
+/.elixir_ls/

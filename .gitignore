@@ -26,3 +26,5 @@ erl_crash.dump
 /node_modules/
 
 /.elixir_ls/
+
+.firebase/

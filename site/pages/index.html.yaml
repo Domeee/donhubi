@@ -30,65 +30,44 @@ schema: http://schema.org/WebSite
 </div>
 <div class="section-container grow">
   <section>
-    <h1 class="section-header">Projekte</h1>
+    <h1 class="section-header">Aktuelle Projekte</h1>
     <div class="sub-content-section projects">
-    <div class="project">
-        <a href="https://timebox.innoarchitects.ch" alt="Timebox">
-          <img src="assets/timebox.jpg" alt="Crowdie">
+      <div class="project">
+        <a href="https://ar-weekly.blog" alt="AR Weekly">
+          <img src="assets/ar-weekly.png" alt="AR Weekly">
         </a>
         <div class="project-text">
           <div class="project-title-container">
-            <h2 class="project-title">Timebox</h2>
-            <h2 class="project-subtitle">März 2017 bis heute</h2>
+            <h2 class="project-title">AR Weekly</h2>
+            <h2 class="project-subtitle">Dezember 2018</h2>
           </div>
-          <p class="project-description">Zeitmanagement muss nicht öde sein! Mit der <a href="https://timebox.innoarchitects.ch" alt="Timebox">Timebox</a> kann intuitiv und auf allen möglichen Geräten die Zeit während Workshops verwaltet werden. <a href="https://innoarchitects.ch" alt="INNOArchitects">INNOArchitects</a> Workshop-Teilnehmer werden so auf trab gehalten.</p>
+          <p class="project-description">Eine wöchentliche E-Mail für vielbeschäftigte Menschen, die sich für Augmented Reality interessieren. AR Weekly ist ein Auszug der relevantesten Augmented Reality Nachrichten der Woche. Jeden Montag in deine Mailbox.</p>
           <p class="project-metadata">
-            <span class="project-tag">Progressive Web App</span>
-            <span class="project-tag">React</span>
-            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">Augmented Reality</span>
+            <span class="project-tag">Elixir</span>
+            <span class="project-tag">Phoenix</span>
           </p>
-          <a class="project-action" href="https://timebox.innoarchitects.ch" alt="Timebox">Link zur Timebox</a>
+          <a class="project-action" href="https://ar-weekly.blog" alt="AR Weekly">Link zur Website</a>
+          <a class="project-action" href="https://github.com/Domeee/ar-weekly" alt="AR Weekly @ GitHub">Link zum Source Code</a>
         </div>
       </div>
       <div class="project">
-        <a href="crowdie.html" alt="Crowdie">
-          <img src="assets/crowdie.jpg" alt="Crowdie">
+        <a href="https://lab-invaders.donhubi.ch" alt="Lab Invaders">
+          <img src="assets/lab-invaders.png" alt="Lab Invaders">
         </a>
         <div class="project-text">
           <div class="project-title-container">
-            <h2 class="project-title">Crowdie</h2>
-            <h2 class="project-subtitle">Mai 2017 bis Dezember 2017</h2>
+            <h2 class="project-title">Lab Invaders</h2>
+            <h2 class="project-subtitle">Juli 2018</h2>
           </div>
-          <p class="project-description">Von der Idee zu den ersten zehn Kunden in 29 Tagen. Crowdie ist ein Pilotprojekt der
-            <strong>Post CH AG</strong> und testet die spontane Abholung von Brief- und Paketpost bei KMU's durch offizielle Partner.</p>
-          <p class="project-metadata">
-            <span class="project-tag">Lean Startup</span>
-            <span class="project-tag">Design Thinking</span>
-            <span class="project-tag">Meteor</span>
-            <span class="project-tag">React</span>
-            <span class="project-tag">JavaScript</span>
-          </p>
-          <a class="project-action" href="crowdie.html" alt="Crowdie">Details</a>
-        </div>
-      </div>
-      <div class="project">
-        <a href="https://dangerchopper.azurewebsites.net" alt="Danger Chopper">
-          <img src="assets/danger_chopper.jpg" alt="Danger Chopper">
-        </a>
-        <div class="project-text">
-          <div class="project-title-container">
-            <h2 class="project-title">Danger Chopper</h2>
-            <h2 class="project-subtitle">Dezember 2015</h2>
-          </div>
-          <p class="project-description">Die Kuh Elsa muss auf die Alp. Das ist aber gar nicht so einfach, denn Bergbauer Sepp lebt hoch in den Bergen. Zum Glück gibt es den Danger Chopper. Er eilt Sepp zu Hilfe. Aber schafft er es auch, Elsa auf die Alp zu bringen? Probiere es selber im Game-Prototype.</p>
+          <p class="project-description">Lab Invaders ist ein HTML5 basiertes Browser-Game. Das Verkaufspersonal von Mettler Toledo wurde so auf spielerische Art und Weise über die neue Produktelinie informiert, welche im Herbst 2018 eingeführt wurde.</p>
           <p class="project-metadata">
             <span class="project-tag">Game Development</span>
             <span class="project-tag">Unity</span>
             <span class="project-tag">C#</span>
             <span class="project-tag">WebGL</span>
           </p>
-          <a class="project-action" href="https://dangerchopper.azurewebsites.net" alt="Danger Chopper Prototype">Danger Chopper Prototype</a>
-          <a class="project-action" href="https://rinowenger.com/de/portfolio/danger-chopper-game" alt="Rino Wenger">Rino Wenger, Co-Creator des Games</a>
+          <a class="project-action" href="https://lab-invaders.donhubi.ch" alt="Lab Invaders">Link zum Game</a>
         </div>
       </div>
     </div>

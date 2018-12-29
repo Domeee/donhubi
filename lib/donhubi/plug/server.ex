@@ -4,15 +4,15 @@ defmodule DonHubi.Plug.Server do
   """
   use Plug.Builder
 
-  plug Plug.Static, at: "/", from: "./build/"
-  plug DonHubi.Plug.Index
-  plug :not_found
+  plug(Plug.Static, at: "/", from: "./build/")
+  plug(DonHubi.Plug.Index)
+  plug(:not_found)
 
   @doc """
   Sends all unknown requests a 404.
   """
   def not_found(conn, _) do
-    Plug.Conn.send_resp(conn, 404, "Resource not found. If you're looking for the index page, try 
+    Plug.Conn.send_resp(conn, 404, "Resource not found. If you're looking for the index page, try
 http://localhost:4000/")
   end
 end

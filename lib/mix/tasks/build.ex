@@ -1,38 +1,38 @@
 defmodule Mix.Tasks.Don.Build do
   use Mix.Task
-  
-  def run([]) do    
+
+  def run([]) do
     # Clean
-    File.rm_rf! "build"
+    File.rm_rf!("build")
 
     # Init build structure
-    File.mkdir! "build"
+    File.mkdir!("build")
 
     # Compile and copy Pages
-    Application.start :yamerl
-    DonHubi.Page.compile
+    Application.start(:yamerl)
+    DonHubi.Page.compile()
 
     # Copy Assets
-    DonHubi.Assets.copy
+    DonHubi.Assets.copy()
 
     # Compile JavaScript and SASS
-    System.cmd "npm", ["run", "build"], into: IO.stream(:stdio, :line)
+    System.cmd("npm", ["run", "build"], into: IO.stream(:stdio, :line))
   end
 
   def run(["assets"]) do
-    DonHubi.Assets.copy
+    DonHubi.Assets.copy()
   end
 
   def run(["pages"]) do
-    Application.start :yamerl
-    DonHubi.Page.compile
+    Application.start(:yamerl)
+    DonHubi.Page.compile()
   end
 
   def run(["scripts"]) do
-    System.cmd "npm", ["run", "build"], into: IO.stream(:stdio, :line)
+    System.cmd("npm", ["run", "build"], into: IO.stream(:stdio, :line))
   end
 
   def run(["styles"]) do
-    System.cmd "npm", ["run", "build"], into: IO.stream(:stdio, :line)
+    System.cmd("npm", ["run", "build"], into: IO.stream(:stdio, :line))
   end
 end

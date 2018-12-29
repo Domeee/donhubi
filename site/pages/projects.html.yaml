@@ -11,13 +11,51 @@ schema: http://schema.org/WebSite
     <h1 class="section-header">projekte und digitale spielereien</h1>
     <div class="sub-content-section projects">
       <div class="project">
+        <a href="https://ar-weekly.blog" alt="AR Weekly">
+          <img src="assets/ar-weekly.png" alt="AR Weekly">
+        </a>
+        <div class="project-text">
+          <div class="project-title-container">
+            <h2 class="project-title">AR Weekly</h2>
+            <h2 class="project-subtitle">Dezember 2018</h2>
+          </div>
+          <p class="project-description">Eine wöchentliche E-Mail für vielbeschäftigte Menschen, die sich für Augmented Reality interessieren. AR Weekly ist ein Auszug der relevantesten Augmented Reality Nachrichten der Woche. Jeden Montag in deine Mailbox.</p>
+          <p class="project-metadata">
+            <span class="project-tag">Augmented Reality</span>
+            <span class="project-tag">Elixir</span>
+            <span class="project-tag">Phoenix</span>
+          </p>
+          <a class="project-action" href="https://ar-weekly.blog" alt="AR Weekly">Link zur Website</a>
+          <a class="project-action" href="https://github.com/Domeee/ar-weekly" alt="AR Weekly @ GitHub">Link zum Source Code</a>
+        </div>
+      </div>
+      <div class="project">
+        <a href="https://lab-invaders.donhubi.ch" alt="Lab Invaders">
+          <img src="assets/lab-invaders.png" alt="Lab Invaders">
+        </a>
+        <div class="project-text">
+          <div class="project-title-container">
+            <h2 class="project-title">Lab Invaders</h2>
+            <h2 class="project-subtitle">Juli 2018</h2>
+          </div>
+          <p class="project-description">Lab Invaders ist ein HTML5 basiertes Browser-Game. Das Verkaufspersonal von Mettler Toledo wurde so auf spielerische Art und Weise über die neue Produktelinie informiert, welche im Herbst 2018 eingeführt wurde.</p>
+          <p class="project-metadata">
+            <span class="project-tag">Game Development</span>
+            <span class="project-tag">Unity</span>
+            <span class="project-tag">C#</span>
+            <span class="project-tag">WebGL</span>
+          </p>
+          <a class="project-action" href="https://lab-invaders.donhubi.ch" alt="Lab Invaders">Link zum Game</a>
+        </div>
+      </div>
+      <div class="project">
         <a href="https://timebox.innoarchitects.ch" alt="Timebox">
           <img src="assets/timebox.jpg" alt="Crowdie">
         </a>
         <div class="project-text">
           <div class="project-title-container">
             <h2 class="project-title">Timebox</h2>
-            <h2 class="project-subtitle">März 2017 bis heute</h2>
+            <h2 class="project-subtitle">März 2017 bis Dezember 2018</h2>
           </div>
           <p class="project-description">Zeitmanagement muss nicht öde sein! Mit der <a href="https://timebox.innoarchitects.ch" alt="Timebox">Timebox</a> kann intuitiv und auf allen möglichen Geräten die Zeit während Workshops verwaltet werden. <a href="https://innoarchitects.ch" alt="INNOArchitects">INNOArchitects</a> Workshop-Teilnehmer werden so auf trab gehalten.</p>
           <p class="project-metadata">

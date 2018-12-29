@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Dominique Huber - <%= @frontmatter.title %></title>
   <meta name="description" content="Freelance Software Entwicklung und Coaching von Entwicklungsteams">
-  <meta name="keywords" content="Microsoft .NET, C#, Angular, AngularJS, React, ReactJS, Meteor, MeteorJS, Elixir, Phoenix, Architektur Review, Rapid Prototyping, Prototyping, Fullstack">
+  <meta name="keywords" content="Microsoft .NET, C#, Angular, AngularJS, React, ReactJS, Meteor, MeteorJS, Elixir, Phoenix, Architektur Review, Rapid Prototyping, Prototyping, Fullstack, Freelance, Game Development">
   <meta name="author" content="Dominique Huber">
   <link rel="manifest" href="assets/manifest.json">
   <link rel="icon" href="assets/favicon.ico">

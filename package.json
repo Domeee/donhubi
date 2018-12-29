@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Domeee/donhubi.git"
+    "url": "https://github.com/Domeee/donhubi.git"
   },
   "author": "Dominique Huber",
   "license": "MIT",
@@ -23,9 +23,9 @@
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "extract-text-webpack-plugin": "^3.0.2",
-    "node-sass": "^4.8.3",
-    "postcss-loader": "^2.1.4",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^2.1.6",
     "sass-loader": "^6.0.7",
-    "webpack": "^3.11.0"
+    "webpack": "^3.12.0"
   }
 }

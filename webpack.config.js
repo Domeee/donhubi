@@ -1,45 +1,25 @@
 const path = require("path");
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
-
-const extractSass = new ExtractTextPlugin({
-  filename: "donhubi.css"
-});
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: ["./site/styles/index.scss"],
   output: {
     filename: "donhubi.js",
-    path: path.resolve(__dirname, "build")
+    path: path.resolve(__dirname, "build"),
   },
-  devtool: "source-map",
   module: {
     rules: [
       {
-        test: /\.scss$/,
-        use: extractSass.extract({
-          use: [
-            {
-              loader: "css-loader",
-              options: {
-                sourceMap: true
-              }
-            },
-            {
-              loader: "postcss-loader",
-              options: {
-                sourceMap: true
-              }
-            },
-            {
-              loader: "sass-loader",
-              options: {
-                sourceMap: true
-              }
-            }
-          ]
-        })
-      }
-    ]
+        test: /\.scss$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+      },
+    ],
   },
-  plugins: [extractSass]
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "donhubi.css",
+      chunkFilename: "[id].css",
+      path: path.resolve(__dirname, "build"),
+    }),
+  ],
 };

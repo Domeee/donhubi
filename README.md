@@ -1,18 +1,4 @@
-# DonHubi
-
-## Installation (ArchLinux)
-
-* Elixir
-
-  `pacman -S elixir`
-
-  `mix deps.get`
-
-  `mix don.build`
-
-* Node/nvm
-
-* browser-sync
+# Don Hubi
 
 ## Running dev build
 

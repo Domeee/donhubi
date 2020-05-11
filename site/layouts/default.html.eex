@@ -11,7 +11,11 @@
   <meta name="author" content="Dominique Huber">
   <link rel="manifest" href="assets/manifest.json">
   <link rel="icon" href="assets/favicon.ico">
-  <%# <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet"> %>
+  <link rel="preload" href="assets/bitter-v15-latin-regular.woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/bitter-v15-latin-700.woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/open-sans-v17-latin-regular.woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/open-sans-v17-latin-italic.woff2" crossorigin="anonymous">
+  <link rel="preload" href="assets/open-sans-v17-latin-700.woff2" crossorigin="anonymous">
   <link rel="stylesheet" href="donhubi.css">
   <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">

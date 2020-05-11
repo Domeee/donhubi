@@ -11,7 +11,7 @@
   <meta name="author" content="Dominique Huber">
   <link rel="manifest" href="assets/manifest.json">
   <link rel="icon" href="assets/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
+  <%# <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet"> %>
   <link rel="stylesheet" href="donhubi.css">
   <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">
@@ -45,18 +45,6 @@
   <meta itemprop="datePublished" content="<%= DateTime.utc_now %>">
   <meta itemprop="headline" content="<%= @frontmatter.description %>">
   <meta itemprop="publisher" content="Dominique Huber">
-  <script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u = "//piwik.donhubi.ch/";
-      _paq.push(['setTrackerUrl', u + 'piwik.php']);
-      _paq.push(['setSiteId', '4']);
-      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-      g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-    })();
-  </script>
 </head>
 
 <body>
@@ -67,6 +55,9 @@
         <img src="assets/close.svg" alt="">
       </div>
       <ul class="navigation-handheld">
+        <li>
+          <a href="index.html" alt="Home" <%= if @frontmatter.name === "index" do %>class="active"<% end %>>Home</a>
+        </li>
         <li>
           <a href="dev.html" alt="Software Entwicklung" <%= if @frontmatter.name === "dev" do %>class="active"<% end %>>Software Entwicklung</a>
         </li>

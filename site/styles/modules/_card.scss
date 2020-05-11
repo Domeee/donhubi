@@ -27,7 +27,7 @@ main {
             word-wrap: break-word;
             color: rgba(0, 0, 0, 0.8);
             text-transform: uppercase;
-            font-family: "Bitter", serif;
+            font-family: $font-secondary;
             font-weight: 700;
             font-size: 2.4rem;
             letter-spacing: 0.1rem;
@@ -50,7 +50,8 @@ main {
         .project-tag {
           font-size: 1.4rem;
           padding: 0.5rem 1rem;
-          background-color: $color-grey-light;
+          background-color: $color-primary;
+          color: #fff;
           border-radius: 2.5rem;
         }
         .project-action {

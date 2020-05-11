@@ -33,13 +33,13 @@ schema: http://schema.org/WebSite
     <h1 class="section-header">Aktuelle Projekte</h1>
     <div class="sub-content-section projects">
       <div class="project">
-        <a href="https://ar-weekly.blog" alt="AR Weekly">
+        <a href="https://github.com/Domeee/ar-weekly" alt="AR Weekly">
           <img src="assets/ar-weekly.png" alt="AR Weekly">
         </a>
         <div class="project-text">
           <div class="project-title-container">
             <h2 class="project-title">AR Weekly</h2>
-            <h2 class="project-subtitle">Dezember 2018</h2>
+            <h2 class="project-subtitle">2018</h2>
           </div>
           <p class="project-description">Eine wöchentliche E-Mail für vielbeschäftigte Menschen, die sich für Augmented Reality interessieren. AR Weekly ist ein Auszug der relevantesten Augmented Reality Nachrichten der Woche. Jeden Montag in deine Mailbox.</p>
           <p class="project-metadata">
@@ -47,7 +47,6 @@ schema: http://schema.org/WebSite
             <span class="project-tag">Elixir</span>
             <span class="project-tag">Phoenix</span>
           </p>
-          <a class="project-action" href="https://ar-weekly.blog" alt="AR Weekly">Link zur Website</a>
           <a class="project-action" href="https://github.com/Domeee/ar-weekly" alt="AR Weekly @ GitHub">Link zum Source Code</a>
         </div>
       </div>
@@ -58,7 +57,7 @@ schema: http://schema.org/WebSite
         <div class="project-text">
           <div class="project-title-container">
             <h2 class="project-title">Lab Invaders</h2>
-            <h2 class="project-subtitle">Juli 2018</h2>
+            <h2 class="project-subtitle">2018</h2>
           </div>
           <p class="project-description">Lab Invaders ist ein HTML5 basiertes Browser-Game. Das Verkaufspersonal von Mettler Toledo wurde so auf spielerische Art und Weise über die neue Produktelinie informiert, welche im Herbst 2018 eingeführt wurde.</p>
           <p class="project-metadata">

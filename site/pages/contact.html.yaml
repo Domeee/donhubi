@@ -15,7 +15,7 @@ schema: http://schema.org/WebSite
       <a href="tel:+41793398007">+41 79 339 80 07</a>
     </p>
     <p class="sub-content-section">
-      <a href="mailto:hello@donhubi.ch">hello@donhubi.ch</a>
+      <a href="mailto:dominique+website@donhubi.ch">dominique@donhubi.ch</a>
     </p>
   </section>
 </div>
@@ -29,9 +29,6 @@ schema: http://schema.org/WebSite
       </a>
       <a href="https://www.linkedin.com/in/dominique-huber">
         <img class="social-icon" src="assets/logo-linkedin.png" alt="LinkedIn">
-      </a>
-      <a href="https://www.xing.com/profile/Dominique_Huber">
-        <img class="social-icon" src="assets/logo-xing.svg" alt="Xing">
       </a>
     </p>
   </section>

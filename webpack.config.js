@@ -13,6 +13,10 @@ module.exports = {
         test: /\.scss$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
+        use: ["file-loader"],
+      },
     ],
   },
   plugins: [
